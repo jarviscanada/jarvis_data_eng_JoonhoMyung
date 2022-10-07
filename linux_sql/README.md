@@ -142,7 +142,6 @@ psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 <br />
 
 ## Database Modeling
-<br />
 
 #### host_info
 
@@ -192,6 +191,7 @@ psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
   periodically. During the project, source code was 
   managed by git and pushed into Github. 
 
+<br />
 
 # Improvements
 
