@@ -2,20 +2,20 @@
 
 
 # Introduction
-This project runs monitoring agent for a Linux cluster of nodes. 
+This project runs a monitoring agent for a Linux cluster of nodes. 
 The hardware specifications and resource usage of each user, which is 
 each node is recorded in real-time.
 
 The collected hardware specification data and 
 resource usage is recorded in a psql instance. Hardware 
 specification is inserted only once at installation 
-time but resource usage statistics is inserted into 
+time but resource usage statistics are inserted into 
 the database every minute.
 
-I have used bash script, docker and git to implement this project.
-Docker was used to set up a psql instance which
+I have used bash script, docker, and git to implement this project.
+Docker was used to setting up a psql instance which
 enabled me to use it on my local machine.
-Git was used to manage and keep track of my source code for 
+Git was used to managing and keeping track of my source code for 
 each task.
 
 
@@ -69,14 +69,14 @@ crontab -e
 * * * * * bash /home/centos/dev/jrvs/bootcamp/linux_sql/host_agent/scripts/host_usage.sh 
 psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 ```
-- Instead using the path specified in code, 
-use your own path from your output of `pwd` for `host_usage.sh`.
+- Instead of using the path specified in the 
+  code, use your path from your output of 
+  `pwd` for `host_usage.sh`.
 
 <br />
 
 # Implementation
 
----
 
 ## Architecture
 ![my image](./assets/ArchitectureDiagram.png)
@@ -86,9 +86,9 @@ use your own path from your output of `pwd` for `host_usage.sh`.
 ## Scripts
 
 - `psql_docker.sh`
-    - This script creates docker container and set up 
+    - This script creates a docker container and set up 
       the psql instance using docker.
-    - This script is also used to start and stop docker container
+    - This script is also used to start and stop the docker container
 ```
 ./scripts/psql_docker.sh create|start|stop [db_username][db_password]
 ```
@@ -97,7 +97,7 @@ use your own path from your output of `pwd` for `host_usage.sh`.
 
 - `ddl.sql`
   - This file contains two CREATE TABLE statements
-    which creates table for hardware specification
+    which creates a table for hardware specification
     `host_info` and server usage data `host_usage`
 ```
 psql -h psql_host -U psql_user -d db_name -f sql/ddl.sql
@@ -121,7 +121,7 @@ psql -h psql_host -U psql_user -d db_name -f sql/ddl.sql
       into the psql instance.
     - Unlike `host_info.sh`, this script is 
       executed every minute to insert current
-      server usage data into psql instance.
+      server usage data into a psql instance.
 ```
 ./scripts/host_usage.sh psql_host psql_port db_name psql_user psql_password
 ```
@@ -176,9 +176,9 @@ psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 # Test
 
 
-- I tested bash scripts and sql file individually
-  by running script usage on terminal and correct
-  results and data was observed in psql instance with 
+- I tested bash scripts and a SQL file individually
+  by running script usage on the terminal and correct
+  results and data were observed in psql instance with 
   sql queries.
 
 <br />
@@ -186,7 +186,7 @@ psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 # Deployment
 
 
-- This project used Docker to provision psql instance
+- This project used Docker to provision the psql instance
   and crontab was used to execute `host_usage.sh`
   periodically. During the project, source code was 
   managed by git and pushed into Github. 
@@ -198,11 +198,11 @@ psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 
 - Create hardware specification update 
   option in case hardware component changes
-- Create more columns in table for other 
-  hardware specifications to database
+- Create more columns in the table for other 
+  hardware specifications to the database
 - I still have to run several scripts to set
-  up database but later, all the scripts should
-  be included into single script, therefore
+  up the database but later, all the scripts should
+  be included into a single script, therefore
   every task can be completed at once.
 
 
