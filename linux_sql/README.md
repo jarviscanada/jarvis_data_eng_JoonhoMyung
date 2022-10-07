@@ -1,6 +1,5 @@
 # Linux Cluster Monitoring Agent
 
----
 
 # Introduction
 This project runs monitoring agent for a Linux cluster of nodes. 
@@ -91,11 +90,7 @@ use your own path from your output of `pwd` for `host_usage.sh`.
       the psql instance using docker.
     - This script is also used to start and stop docker container
 ```
-./scripts/psql_docker.sh create [db_username][db_password]
-
-./scripts/psql_docker.sh start
-
-./scripts/psql_docker.sh stop
+./scripts/psql_docker.sh create|start|stop [db_username][db_password]
 ```
 
 <br />
@@ -181,7 +176,7 @@ psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 
 # Test
 
----
+
 - I tested bash scripts and sql file individually
   by running script usage on terminal and correct
   results and data was observed in psql instance with 
@@ -191,7 +186,7 @@ psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 
 # Deployment
 
----
+
 - This project used Docker to provision psql instance
   and crontab was used to execute `host_usage.sh`
   periodically. During the project, source code was 
@@ -200,7 +195,7 @@ psql_host psql_port db_name psql_user psql_password > /tmp/host_usage.log
 
 # Improvements
 
----
+
 - Create hardware specification update 
   option in case hardware component changes
 - Create more columns in table for other 
