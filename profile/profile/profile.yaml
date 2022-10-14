@@ -28,7 +28,7 @@ skills:
   familiar:
     - Docker
     - C/C++
-    - fermentum
+    - PHP
     - fermentum
     - fermentum
 
@@ -69,14 +69,14 @@ highlighted_projects:
     #URL is optional
     git_url: ""
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Created websites for a ride and delivery services. Worked in group and used front-end and back-end languages like HTML, CSS, PHP, SQL, Angular and Javascript. In this website, user can sign up and purchase a ride with the specific vehicle they want. Also, the user can order delivery for the flower and food items they want. The group projects was contributed by each group members using GitHub.
+    description: Created websites for ride and delivery services. Worked in a group and used front-end and back-end languages like HTML, CSS, PHP, SQL, Angular, and Javascript. On this website, users can sign up and purchase a ride with the specific vehicle they want. Also, the user can order delivery for the flower and food items they want. The group projects were contributed by each group member using GitHub.
 
     #project name
   - name: "Movie Recommender System"
     #URL is optional
     git_url: ""
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Created Java program that recommend a movie to the user by analyzing other user's database. Looks for the user who has similar tendency and recommend their high-rated movie which user hasn't watched it yet.
+    description: Created a Java program that recommends a movie to the user by analyzing other users' databases. Looks for the user who has a similar tendency and recommends their high-rated movie which the user hasn't watched yet.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -87,7 +87,7 @@ professional_experience:
     company: "Jarvis"
     duration: "2022-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Worked on projects with a team of software developers and employed Agile approach for the projects. Worked on technologies like GitHub, Docker and PostgreSQL. The agile environment helped developers have daily scrum meeting and the sprint for Jarvis which uses two-week sprint. Various projects using different language and concepts were developed and one of the developers became a team lead for the sprint and was being responsible for daily scrum meetings, listening and monitor whether to team member is heading to right direction or having any obstacles stopping them to accomplish the work."
+    description: Worked on projects with a team of software developers and employed an Agile approach for the projects. Worked on technologies like GitHub, Docker, and PostgreSQL. The agile environment helped developers have daily scrum meetings and the sprint for Jarvis which uses a two-week sprint. Various projects using different languages and concepts were developed and one of the developers became a team lead for the sprint and was responsible for daily scrum meetings, listening, and monitoring whether to team member is heading in the right direction or had any obstacles stopping them to accomplish the work.
 
 #List of edcuation
 education: 
@@ -104,11 +104,6 @@ education:
 #Optional section
 others:
     #category
-  - title: "Certificates"
-    #list of items
-    bullets:
-  - title: "Awards"
-    bullets:
   - title: "Activities/Hobbies"
     bullets:
       - "Soccer player"

@@ -8,7 +8,7 @@ I am a recent graduate from Ryerson University, currently changed their name to 
 
 **Competent:** Docker, HTML/CSS, Donec, fermentum, Donec
 
-**Familiar:** Docker, C/C++, fermentum, fermentum, fermentum
+**Familiar:** Docker, C/C++, PHP, fermentum, fermentum
 
 ## Jarvis Projects
 
@@ -35,12 +35,14 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyun
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Smart Service for Car Rental**: Created websites for ride and delivery services. Worked in a group and used front-end and back-end languages like HTML, CSS, PHP, SQL, Angular, and Javascript. On this website, users can sign up and purchase a ride with the specific vehicle they want. Also, the user can order delivery for the flower and food items they want. The group projects were contributed by each group member using GitHub.
+
+**Movie Recommender System**: Created a Java program that recommends a movie to the user by analyzing other users' databases. Looks for the user who has a similar tendency and recommends their high-rated movie which the user hasn't watched yet.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2022-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Software Developer, Jarvis (2022-present)**: Worked on projects with a team of software developers and employed an Agile approach for the projects. Worked on technologies like GitHub, Docker, and PostgreSQL. The agile environment helped developers have daily scrum meetings and the sprint for Jarvis which uses a two-week sprint. Various projects using different languages and concepts were developed and one of the developers became a team lead for the sprint and was responsible for daily scrum meetings, listening, and monitoring whether to team member is heading in the right direction or had any obstacles stopping them to accomplish the work.
 
 
 ## Education
@@ -50,8 +52,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyun
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
 - Soccer player
 - Love watching sports
 - Love playing sports games
