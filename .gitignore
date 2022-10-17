@@ -5,5 +5,5 @@
 /core_java/.idea/
 
 #ignore configuration files from profile repo
-/profile/.idea
+/profile/.idea/
 
