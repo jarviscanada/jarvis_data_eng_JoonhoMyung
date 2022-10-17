@@ -4,4 +4,6 @@
 #ignore configuration files from core_java project
 /core_java/.idea/
 
+#ignore configuration files from profile repo
+/profile/.idea
 
