@@ -1,2 +1,7 @@
+#ignore configuration files from linux project
 /linux_sql/.idea/
+
+#ignore configuration files from core_java project
+/core_java/.idea/
+
 
