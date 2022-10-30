@@ -1,11 +1,10 @@
-#ignore configuration files from linux project
-/linux_sql/.idea/
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
+.eclipse
 
-#ignore configuration files from core_java project
-/core_java/.idea/
-
-#ignore configuration files from profile repo
-/profile/.idea/
-
-#ignore configuration files from practice repo
-/practice/.idea/
