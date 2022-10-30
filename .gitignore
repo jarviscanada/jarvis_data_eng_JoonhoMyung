@@ -7,3 +7,5 @@
 #ignore configuration files from profile repo
 /profile/.idea/
 
+#ignore configuration files from practice repo
+/practice/.idea/
