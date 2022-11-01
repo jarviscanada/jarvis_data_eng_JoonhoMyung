@@ -37,8 +37,9 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   /**
-   * Traverse a given directory and return all files
-   * @param rootDir input directory
+   * Find all files from given rootDir and return it
+   *
+   * @param rootDir input dir address
    * @return files under the rootDir
    */
   public List<File> listFiles(String rootDir) {
@@ -62,17 +63,17 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   /**
-   * Read a file and return all the lines
+   * Return every lines of text from file
    *
    * @param inputFile file to be read
    * @return lines
-   * @throws IllegalArgumentException if a given inputFile is not a file
+   * @throws IllegalArgumentException
    */
   public List<String> readLines(File inputFile)
       throws IllegalArgumentException, IOException {
     FileReader fr = new FileReader(inputFile);
     BufferedReader br = new BufferedReader(fr);
-    List<String> fileTexts = new ArrayList<String>();
+    List<String> fileTexts = new ArrayList<>();
     String line = null;
 
     while ((line = br.readLine()) != null){
@@ -84,9 +85,10 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   /**
-   * check if a line contains the regex pattern (passed by user)
-   * @param line input string
-   * @return true if there is a match
+   * check if a line matches with input regex patter
+   *
+   * @param line
+   * @return boolean
    */
   public boolean containsPattern(String line) {
     boolean isContain = false;
@@ -100,10 +102,10 @@ public class JavaGrepImp implements JavaGrep {
 
   @Override
   /**
-   * Write lines to a file
+   * write input string to a output file address
    *
-   * @param lines matched line
-   * @throws IOException if write failed
+   * @param lines
+   * @throws IOException
    */
   public void writeToFile(List<String> lines) throws IOException {
         FileWriter writer = new FileWriter(getOutFile());
