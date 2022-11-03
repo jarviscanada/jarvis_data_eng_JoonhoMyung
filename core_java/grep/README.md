@@ -14,8 +14,6 @@ on DockerHub to facilitate distribution of the application.
 
 
 # Quick Start
-How to use your apps?
-
 First, prepare three arguments which is going to be used for running the program
 
 - `regex`: regex pattern to search
@@ -77,7 +75,7 @@ This application was dockerized by packaging java app with uber/fat.jar
 file. The docker image was uploaded to DockerHub by using `docker push`
 and It can be accessed by URL or pulling it from command line
 - https://hub.docker.com/repository/docker/m3996m/grep
-- docker pull m3996m/grep
+- `docker pull m3996m/grep`
 
 # Improvement
 - Implement GUI for users
