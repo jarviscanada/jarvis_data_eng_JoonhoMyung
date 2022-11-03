@@ -11,6 +11,8 @@ target/
 log/
 out/
 
+core_java/grep/password.txt
+
 intellij-java-google-style.xml
 
 
