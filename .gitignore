@@ -8,6 +8,9 @@ target/
 .idea/
 .eclipse
 
+log/
+out/
+
 intellij-java-google-style.xml
 
 
