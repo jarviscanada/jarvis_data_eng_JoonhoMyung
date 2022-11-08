@@ -20,26 +20,25 @@ It is an Entity Relationship Diagram that shows the relationship between table e
 
 ## Design Patterns
 
-This application used JDBC to access data in RDBMS and two different design patterns
+This application used **JDBC** to access data in RDBMS and two different design patterns
 were considered.
 
-First, the DAO pattern is applied for this application. DAO is an abstraction
-of data persistence and is considered closer to the database. So the 
+First, the **DAO pattern** is applied for this application. DAO pattern is an **abstraction
+of data persistence** and is considered closer to the database. So the 
 DAO pattern allows us to isolate the application or the business layer 
 from the persistence layer using an abstract API. Eventually, the DAO pattern allows developers to
 develop business layer and persistent layer separately. The DAO was implemented
-as an abstract class that consist of a connection to RDBMS and has
-CRUD operations. 
+as an abstract class that consist of a connection to RDBMS and has CRUD operations. 
 
-Second, the repository pattern consists of classes or components that centralize and 
+Second, the **repository pattern** consists of classes or components that centralize and 
 encapsulates various operations which interact and access our database. 
 Since we join the code instead of joining the table, the repository pattern is an
 abstraction of a collection of objects. This also shows Repository pattern is a 
 higher-level concept that is closer more like the Domain object.
 
 Both design patterns increase code maintainability, flexibility, and decrease development cost
-However, the repository pattern focuses only on single-table access per class but
-DAO pattern can query multiple tables. Since the DAO pattern can query multiple tables, 
+However, the **repository pattern** focuses only on **single-table access per class** but
+**DAO pattern** can **query multiple tables**. Since the DAO pattern can query multiple tables, 
 DAO pattern suits well and is valuable for highly normalized data. Also, DAO pattern joins
 the database but the repository pattern will join in the code.
 
