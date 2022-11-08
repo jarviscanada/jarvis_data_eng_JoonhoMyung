@@ -19,8 +19,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyun
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/core_java)]:
       
-  - Grep App: Implemented Java Grep Application that mimics Linux grep command which allows users to search matching strings from files. The application was dockerized using Docker container and implemented using various technologies which are Maven, Stream APIs, Java Regex and Lambda.
-  - JDBC App: Implemented Java Database Connectivity (JDBC) application which connects to PostgreSQL database and performs CRUD (Create, Read, Update, Delete) operations to the database. The application used various technologies which are Java, JDBC, Maven, SQL, PostgreSQL, and Docker.
+  - **Grep App:** Implemented Java Grep Application that mimics Linux grep command which allows users to search matching strings from files. The application was dockerized using Docker container and implemented using various technologies which are Maven, Stream APIs, Java Regex and Lambda.
+  - **JDBC App:** Implemented Java Database Connectivity (JDBC) application which connects to PostgreSQL database and performs CRUD (Create, Read, Update, Delete) operations to the database. The application used various technologies which are Java, JDBC, Maven, SQL, PostgreSQL, and Docker.
   - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/springboot)]: Not Started
