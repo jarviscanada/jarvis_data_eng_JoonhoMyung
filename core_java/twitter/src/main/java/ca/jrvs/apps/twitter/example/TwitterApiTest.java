@@ -17,6 +17,7 @@ public class TwitterApiTest {
   private static String ACCESS_TOKEN = System.getenv("accessToken");
   private static String TOKEN_SECRET = System.getenv("tokenSecret");
 
+
   public static void main(String[] args) throws Exception {
 
       OAuthConsumer consumer = new CommonsHttpOAuthConsumer(CONSUMER_KEY, CONSUMER_SECRET);
