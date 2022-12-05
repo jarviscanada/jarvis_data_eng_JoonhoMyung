@@ -6,9 +6,9 @@ I am a recent graduate from Ryerson University, currently changed their name to 
 
 **Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Docker, HTML/CSS, Donec, fermentum, Donec
+**Competent:** Docker, HTML/CSS
 
-**Familiar:** Docker, C/C++, PHP, fermentum, fermentum
+**Familiar:** C/C++, PHP
 
 ## Jarvis Projects
 
@@ -21,7 +21,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyun
       
   - **Grep App:** Implemented Java Grep Application that mimics Linux grep command which allows users to search matching strings from files. The application was dockerized using Docker container and implemented using various technologies which are Maven, Stream APIs, Java Regex and Lambda.
   - **JDBC App:** Implemented Java Database Connectivity (JDBC) application which connects to PostgreSQL database and performs CRUD (Create, Read, Update, Delete) operations to the database. The application used various technologies which are Java, JDBC, Maven, SQL, PostgreSQL, and Docker.
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Twitter App: Not started
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/springboot)]: Not Started
 
