@@ -6,34 +6,22 @@ I am a recent graduate from Toronto Metropolitan University (formerly Ryerson Un
 
 **Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Docker, Ruby, Angular, JavaScript
+**Competent:** Docker, Ruby, Angular, JavaScript, JDBC
 
-**Familiar:** HTML/CSS, C/C++, PHP
+**Familiar:** HTML/CSS, C, C++, PHP, REST API
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/linux_sql)]: Developed and wrote bash scripts used terminal and used various technologies to save hardware specifications and resource usage data into PostgreSQL database using Docker container. This script was executed to manage the Linux cluster running on CentOS 7. Also, cron command was used in monitoring agent to record resource usage of each node in real-time.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/linux_sql)]: Developed and wrote bash scripts using terminal and used various technologies to save hardware specifications and resource usage data into PostgreSQL database using Docker container. This script was executed to manage the Linux cluster running on CentOS 7. Also, the cron was used in monitoring agent to record resource usage of each node in real-time.
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/core_java)]:
+      
+  - Twitter App: Implemented Java Grep Application that mimics the Linux grep command which allows users to search matching strings from files. The application was deployed using Docker container and implemented using various technologies. The technologies used in this project are Maven, Stream APIs, Java Regex and Lambda. First, Maven was used to manage projects and help downloading dependencies to keep it up-to-date. Second, Stream API allowed me to process collections of objects so objects were pipelined to produce desired result. Third, Lambda expression enabled me to use functional programming structure in Java. Lastly, Java Regex was used to find matching string from the text file.
+  - JDBC App: Implemented Java Database Connectivity application which connects to PostgreSQL database and performs CRUD (Create, Read, Update, Delete) operations to the database. The application used various technologies which are Java, JDBC, Maven, and PostgreSQL. First, JDBC was used to allow Java programs to access PostGreSQL. Second, Maven was used to manage projects and help downloading dependencies to keep it up-to-date.
 
-- **Grep App:** Implemented Java Grep Application that mimics the Linux grep command which allows users to search matching strings from files. The application was deployed using Docker container and implemented using various technologies. The technologies used in this project are Maven, Stream APIs, Java Regex and Lambda. First, Maven was used to manage projects and help downloading dependencies to keep it up-to-date. Second, Stream API allowed me to process collections of objects so objects were pipelined to produce desired result. Third, Lambda expression enabled me to use functional programming structure in Java. Lastly, Java Regex was used to find matching string from the text file.
-- **JDBC App:** Implemented Java Database Connectivity application which connects to PostgreSQL database and performs CRUD (Create, Read, Update, Delete) operations to the database. The application used various technologies which are Java, JDBC, Maven, and PostgreSQL. First, JDBC was used to allow Java programs to access PostGreSQL. Second, Maven was used to manage projects and help downloading dependencies to keep it up-to-date.
-<!--- Twitter App: Not started--->
-
-<!---
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyung/tree/master/cloud_devops)]: Not Started
---->
 
 ## Highlighted Projects
 **Smart Service for Car Rental**: Created websites for ride and delivery services. Worked in a group and used front-end and back-end languages like HTML, CSS, PHP, SQL, Angular, and Javascript. On this website, users can sign up and purchase a ride with the specific vehicle they want. Also, the user can order delivery for the flower and food items they want. The group projects were contributed by each group member using GitHub.
