@@ -19,50 +19,24 @@
       "name": "Smart Service for Car Rental"
     },
     {
-      "description": "Created a Java program that recommends a movie to the user by analyzing other users' databases. Looks for the user who has a similar tendency and recommends their high-rated movie which the user hasn't watched yet.",
+      "description": "Created a Java program that recommends a movie to the user by analyzing other users' databases. Looks for the user who has a similar tendency and recommends their high-rated movie which the user hasn't watched yet. For the front end, I used Java Swing for GUI to let users interact with the database.",
       "git_url": "",
       "name": "Movie Recommender System"
     }
   ],
   "jarvis_projects": [
     {
-      "description": "Developed and written bash scripts using terminal and used various technologies to save hardware specifications and resource usage data into database using Docker container and PSQL instance. This script was executed to manage the Linux cluster running on Linux distro CentOS 7. Also, CRONTAB command was used in monitoring agent to record resource usage of each node in real-time.",
+      "description": "Developed and wrote bash scripts using terminal and used various technologies to save hardware specifications and resource usage data into PostgreSQL database using Docker container. This script was executed to manage the Linux cluster running on CentOS 7. Also, the cron was used in monitoring agent to record resource usage of each node in real-time.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
     {
       "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+        "JDBC App: Implemented Java Database Connectivity application which connects to PostgreSQL database and performs CRUD (Create, Read, Update, Delete) operations to the database. The application used various technologies which are Java, JDBC, Maven, and PostgreSQL. First, JDBC was used to allow Java programs to access PostGreSQL. Second, Maven was used to manage projects and help downloading dependencies to keep it up-to-date.",
+        "Grep App: Implemented Java Grep Application that mimics the Linux grep command which allows users to search matching strings from files. The application was deployed using Docker container and implemented using various technologies. The technologies used in this project are Maven, Stream APIs, Java Regex and Lambda. First, Maven was used to manage projects and help downloading dependencies to keep it up-to-date. Second, Stream API allowed me to process collections of objects so objects were pipelined to produce desired result. Third, Lambda expression enabled me to use functional programming structure in Java. Lastly, Java Regex was used to find matching string from the text file."
       ],
       "git_url": "/core_java",
       "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Springboot App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
-    },
-    {
-      "description": "",
-      "git_url": "/spark",
-      "name": "Spark"
-    },
-    {
-      "description": "",
-      "git_url": "/cloud_devops",
-      "name": "Cloud/DevOps"
     }
   ],
   "name": "Joonho Myung",
@@ -87,17 +61,17 @@
   "skills": {
     "competent": [
       "Docker",
-      "HTML/CSS",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "Ruby",
+      "Angular",
+      "JavaScript",
+      "JDBC"
     ],
     "familiar": [
-      "Docker",
-      "C/C++",
+      "HTML/CSS",
+      "C",
+      "C++",
       "PHP",
-      "fermentum",
-      "fermentum"
+      "REST API"
     ],
     "proficient": [
       "Java",
@@ -107,5 +81,5 @@
       "Git"
     ]
   },
-  "summary": "I am a recent graduate from Ryerson University, currently changed their name to Toronto Metropolitan University, with a Bachelor of Science (Honours). During my education, I learned software engineering, the fundamentals of data structure, and familiarized myself with various coding languages. I can work on projects with many different languages which are Java, the language most I'm proficient with, SQL, HTTP/CSS, and Bash. I'm currently working as Software Developer from Jarvis Consulting Group and I'm working on improving my skill sets to be prepared for the workspace. I am using an agile approach to manage my projects and these projects enable me to widen the ability to use new technologies like Docker and PostgreSQL."
+  "summary": "I am a recent graduate from Toronto Metropolitan University (formerly Ryerson University), with a Bachelor of Science (Honours) in Computer Science. During my education, I learned software engineering, and the fundamentals of data structures, and became comfortable with various coding languages most notably Java, SQL, C/C++, and Bash. I'm currently working as Software Developer from Jarvis Consulting Group, and I'm working on improving my skill sets to become more efficient with algorithms and to do more advanced projects. I am using an agile approach to manage my projects and these projects help me to improve my capabilities with industry-standard technologies like Docker, PostgreSQL, and Maven. I decided to apply for a developer position because there is a big sense of achievement when you solve a problem. I love being a developer because it's all about problem-solving. It brings the feeling of achievement every day and this is one of my motivations to work hard."
 }
