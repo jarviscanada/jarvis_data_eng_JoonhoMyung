@@ -75,21 +75,22 @@ public class TwitterServiceIntTest {
     }
 
     long timeInMillis = System.currentTimeMillis();
-    Tweet postTweet = TweetUtil.buildTweet(text + timeInMillis, lon, lat);
+    Tweet postTweet = TweetUtil.buildTweet(text + " " + timeInMillis, lon, lat);
     Tweet validTweet = service.postTweet(postTweet);
 
 
-
-    assertEquals(text + timeInMillis, validTweet.getText());
+    System.out.println(validTweet.getId_str());
+    assertEquals(text + " " + timeInMillis, validTweet.getText());
     assertEquals(lon, validTweet.getCoordinates().getCoordinates().get(0));
     assertEquals(lat, validTweet.getCoordinates().getCoordinates().get(1));
     assertTrue(hashTag.contains(validTweet.getEntities().getHashtags().get(0).getText()));
+
   }
 
 
   @Test
   public void showTweet() {
-    String id = "1597364811850989568";
+    String id = "1600620943600132112";
     String invalidId = "JOON1472";
     String[] fields = {
         "created_at",
@@ -132,7 +133,7 @@ public class TwitterServiceIntTest {
 
     Tweet validTweet = service.showTweet(id, fields);
 
-    String expectedText = "@Juno_Myung Let's go Korea! #Qatar2022 1669676421626";
+    String expectedText = "@Juno_Myung Let's go Korea! #Qatar2022 1670452744392";
 
     assertEquals(expectedText, validTweet.getText());
     assertEquals(lon, validTweet.getCoordinates().getCoordinates().get(0));

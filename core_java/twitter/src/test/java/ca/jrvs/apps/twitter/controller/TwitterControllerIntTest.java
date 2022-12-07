@@ -115,7 +115,7 @@ public class TwitterControllerIntTest {
   @Test
   public void showTweet() {
 
-    String id = "1598470860658163712";
+    String id = "1600619311936282624";
     String fields = "text,id_str,coordinates";
     String[] invalidArgs = {"show", id, fields, "extra"};
 
@@ -130,7 +130,7 @@ public class TwitterControllerIntTest {
     String[] validArgs = {"show", id, fields};
     Tweet checkTweet = controller.showTweet(validArgs);
 
-    assertEquals(text + " 1669940124678" , checkTweet.getText());
+    assertEquals(text + " 1670452355122" , checkTweet.getText());
     assertEquals(lon, checkTweet.getCoordinates().getCoordinates().get(1));
     assertEquals(lat, checkTweet.getCoordinates().getCoordinates().get(0));
     assertTrue(hashTag.contains(checkTweet.getEntities().getHashtags().get(0).getText()));

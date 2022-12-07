@@ -21,9 +21,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class TwitterHttpHelper implements HttpHelper{
 
-  /**
-   *  Dependencies are specified as private member variables
-   */
   private OAuthConsumer consumer;
   private HttpClient httpClient;
 
@@ -42,9 +39,18 @@ public class TwitterHttpHelper implements HttpHelper{
       String tokenSecret) {
     consumer = new CommonsHttpOAuthConsumer(consumerKey, consumerSecret);
     consumer.setTokenWithSecret(accessToken, tokenSecret);
-    /**
-     * Default = single connection. Discuss source code if time permit
-     */
+
+    httpClient = new DefaultHttpClient();
+  }
+
+  public TwitterHttpHelper(){
+    String consumerKey = System.getenv("consumerKey");
+    String consumerSecret = System.getenv("consumerSecret");
+    String accessToken = System.getenv("accessToken");
+    String tokenSecret = System.getenv("tokenSecret");
+    consumer = new CommonsHttpOAuthConsumer(consumerKey, consumerSecret);
+    consumer.setTokenWithSecret(accessToken, tokenSecret);
+
     httpClient = new DefaultHttpClient();
   }
 

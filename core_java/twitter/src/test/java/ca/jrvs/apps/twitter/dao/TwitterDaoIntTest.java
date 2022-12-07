@@ -56,8 +56,8 @@ public class TwitterDaoIntTest {
 
   @Test
   public void findById(){
-    String id_str = "1596311723774181376";
-    String expectedText = "@Juno_Myung Let's go Raptors! " + hashTag + " " + System.currentTimeMillis();
+    String id_str = "1600620082853740544";
+    String expectedText = "@Juno_Myung Let's go Raptors! " + hashTag + " 1670452538780";
     Tweet tweet = dao.findById(id_str);
 
 

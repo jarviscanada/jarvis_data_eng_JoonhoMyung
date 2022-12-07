@@ -8,6 +8,7 @@ import java.util.List;
 import oauth.signpost.exception.OAuthException;
 import org.springframework.beans.factory.annotation.Autowired;
 
+@org.springframework.stereotype.Service
 public class TwitterService implements Service {
 
   private static final int TWEET_LENGTH = 140;

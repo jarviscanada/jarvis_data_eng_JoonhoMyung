@@ -42,7 +42,7 @@ public class TwitterCLIApp {
     app.run(args);
   }
 
-  private void run(String[] args) {
+  public void run(String[] args) {
     if(args.length == 0){
       throw new IllegalArgumentException("USAGE: TwitterCLIApp post|show|"
           + "delete [options]");

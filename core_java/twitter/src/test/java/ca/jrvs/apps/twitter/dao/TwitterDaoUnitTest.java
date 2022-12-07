@@ -7,6 +7,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.ArgumentMatchers.isNotNull;
 import static org.mockito.Mockito.doReturn;
+import static org.mockito.Mockito.lenient;
 import static org.mockito.Mockito.when;
 
 import ca.jrvs.apps.twitter.dao.helper.HttpHelper;
@@ -94,15 +95,20 @@ public class TwitterDaoUnitTest {
 
   @Test
   public void deleteTweet() throws IOException {
+    String hashTag = "#abc";
+    String text = "@someone sometext " + hashTag + " " + System.currentTimeMillis();
+    Double lat = 1d;
+    Double lon = -1d;
 
-    when(mockHelper.httpGet(isNotNull())).thenThrow(new RuntimeException("mock"));
+    lenient().when(mockHelper.httpGet(isNotNull())).thenThrow(new RuntimeException("mock"));
     try {
       dao.deleteById("1097607853932564480");
+      fail();
     } catch (RuntimeException e) {
       assertTrue(true);
     }
 
-    when(mockHelper.httpGet(isNotNull())).thenReturn(null);
+    lenient().when(mockHelper.httpGet(isNotNull())).thenReturn(null);
     TwitterDao spyDao = Mockito.spy(dao);
     Tweet expectedTweet = JsonUtil.toObjectFromJson(tweetJsonStr, Tweet.class);
 
