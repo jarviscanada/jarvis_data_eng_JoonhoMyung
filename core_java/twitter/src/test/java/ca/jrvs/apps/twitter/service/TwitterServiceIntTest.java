@@ -8,7 +8,9 @@ import ca.jrvs.apps.twitter.dao.TwitterDao;
 import ca.jrvs.apps.twitter.dao.helper.HttpHelper;
 import ca.jrvs.apps.twitter.dao.helper.TwitterHttpHelper;
 import ca.jrvs.apps.twitter.model.Tweet;
+import ca.jrvs.apps.twitter.util.JsonUtil;
 import ca.jrvs.apps.twitter.util.TweetUtil;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -79,7 +81,7 @@ public class TwitterServiceIntTest {
     Tweet validTweet = service.postTweet(postTweet);
 
 
-    System.out.println(validTweet.getId_str());
+
     assertEquals(text + " " + timeInMillis, validTweet.getText());
     assertEquals(lon, validTweet.getCoordinates().getCoordinates().get(0));
     assertEquals(lat, validTweet.getCoordinates().getCoordinates().get(1));
@@ -90,8 +92,9 @@ public class TwitterServiceIntTest {
 
   @Test
   public void showTweet() {
-    String id = "1600620943600132112";
+    String id = "1601413329095999488";
     String invalidId = "JOON1472";
+
     String[] fields = {
         "created_at",
         "id",
@@ -104,6 +107,7 @@ public class TwitterServiceIntTest {
         "favorited",
         "retweeted"
     };
+
     String[] invalidFields = {
         "tweet_number",
         "nationality",
@@ -133,7 +137,13 @@ public class TwitterServiceIntTest {
 
     Tweet validTweet = service.showTweet(id, fields);
 
-    String expectedText = "@Juno_Myung Let's go Korea! #Qatar2022 1670452744392";
+    String expectedText = "@Juno_Myung Let's go Korea! #Qatar2022 1670641663852";
+
+    try {
+      System.out.println(JsonUtil.toJson(validTweet, true, false));
+    } catch (JsonProcessingException e) {
+      throw new RuntimeException("Unable to convert tweet object to string", e);
+    }
 
     assertEquals(expectedText, validTweet.getText());
     assertEquals(lon, validTweet.getCoordinates().getCoordinates().get(0));

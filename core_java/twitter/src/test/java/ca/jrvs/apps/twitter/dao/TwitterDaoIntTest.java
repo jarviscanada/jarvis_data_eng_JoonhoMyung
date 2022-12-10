@@ -41,7 +41,6 @@ public class TwitterDaoIntTest {
   public void create() throws Exception {
 
 
-
     Tweet postTweet = TweetUtil.buildTweet(text, lon, lat);
     Tweet tweet = dao.create(postTweet);
 

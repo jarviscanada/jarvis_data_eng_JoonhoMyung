@@ -2,6 +2,8 @@ package ca.jrvs.apps.twitter.service;
 
 import ca.jrvs.apps.twitter.dao.CrdDao;
 import ca.jrvs.apps.twitter.model.Tweet;
+import ca.jrvs.apps.twitter.util.JsonUtil;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -39,7 +41,56 @@ public class TwitterService implements Service {
     if(fields != null) {
       validateShowTweet(id, fields);
     }
-    return (Tweet) dao.findById(id);
+
+    Tweet response = (Tweet) dao.findById(id);
+    if(fields != null) {
+      return testFields(response, fields);
+    }
+    else{
+      return response;
+    }
+
+  }
+
+  private Tweet testFields(Tweet response, String[] fields) {
+    Tweet withoutNull = new Tweet();
+
+    for(String field:fields){
+      switch(field){
+        case "created_at":
+          withoutNull.setCreated_at(response.getCreated_at());
+          break;
+        case "id":
+          withoutNull.setId(response.getId());
+          break;
+        case "id_str":
+          withoutNull.setId_str(response.getId_str());
+          break;
+        case "text":
+          withoutNull.setText(response.getText());
+          break;
+        case "entities":
+          withoutNull.setEntities(response.getEntities());
+          break;
+        case "coordinates":
+          withoutNull.setCoordinates(response.getCoordinates());
+          break;
+        case "retweet_count":
+          withoutNull.setRetweet_count(response.getRetweet_count());
+          break;
+        case "favorite_count":
+          withoutNull.setFavorite_count(response.getFavorite_count());
+          break;
+        case "favorited":
+          withoutNull.setFavorited(response.isFavorited());
+          break;
+        case "retweeted":
+          withoutNull.setRetweeted(response.isRetweeted());
+          break;
+      }
+    }
+
+    return withoutNull;
   }
 
   @Override

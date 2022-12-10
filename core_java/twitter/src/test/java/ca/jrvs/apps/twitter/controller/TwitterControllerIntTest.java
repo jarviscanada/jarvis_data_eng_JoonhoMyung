@@ -116,7 +116,7 @@ public class TwitterControllerIntTest {
   public void showTweet() {
 
     String id = "1600619311936282624";
-    String fields = "text,id_str,coordinates";
+    String fields = "text,id_str,coordinates,entities";
     String[] invalidArgs = {"show", id, fields, "extra"};
 
     try {

@@ -26,7 +26,7 @@ public class Tweet {
   private String created_at;
 
   @JsonProperty("id")
-  private long id;
+  private Long id;
 
   @JsonProperty("id_str")
   private String id_str;
@@ -41,16 +41,16 @@ public class Tweet {
   private Coordinates coordinates;
 
   @JsonProperty("retweet_count")
-  private int retweet_count;
+  private Integer retweet_count;
 
   @JsonProperty("favorite_count")
-  private int favorite_count;
+  private Integer favorite_count;
 
   @JsonProperty("favorited")
-  private boolean favorited;
+  private Boolean favorited;
 
   @JsonProperty("retweeted")
-  private boolean retweeted;
+  private Boolean retweeted;
 
 
 
@@ -65,12 +65,12 @@ public class Tweet {
   }
 
   @JsonProperty("id")
-  public long getId() {
+  public Long getId() {
     return id;
   }
 
   @JsonProperty("id")
-  public void setId(long id) {
+  public void setId(Long id) {
     this.id = id;
   }
 
@@ -115,42 +115,42 @@ public class Tweet {
   }
 
   @JsonProperty("retweet_count")
-  public int getRetweet_count() {
+  public Integer getRetweet_count() {
     return retweet_count;
   }
 
   @JsonProperty("retweet_count")
-  public void setRetweet_count(int retweet_count) {
+  public void setRetweet_count(Integer retweet_count) {
     this.retweet_count = retweet_count;
   }
 
   @JsonProperty("favorite_count")
-  public int getFavorite_count() {
+  public Integer getFavorite_count() {
     return favorite_count;
   }
 
   @JsonProperty("favorite_count")
-  public void setFavorite_count(int favorite_count) {
+  public void setFavorite_count(Integer favorite_count) {
     this.favorite_count = favorite_count;
   }
 
   @JsonProperty("favorited")
-  public boolean isFavorited() {
+  public Boolean isFavorited() {
     return favorited;
   }
 
   @JsonProperty("favorited")
-  public void setFavorited(boolean favorited) {
+  public void setFavorited(Boolean favorited) {
     this.favorited = favorited;
   }
 
   @JsonProperty("retweeted")
-  public boolean isRetweeted() {
+  public Boolean isRetweeted() {
     return retweeted;
   }
 
   @JsonProperty("retweeted")
-  public void setRetweeted(boolean retweeted) {
+  public void setRetweeted(Boolean retweeted) {
     this.retweeted = retweeted;
   }
 }
