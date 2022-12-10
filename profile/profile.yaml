@@ -42,7 +42,7 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-     # - "Twitter App: "
+      - "Twitter App: Implemented Java Twitter application which uses Twitter REST API to perform CRUD (Create, Read, Update, Delete) operation and allow users to post/show/delete the tweet object on Twitter Developer Account. This application used various technologies which are Java, Maven, JUnit, Mockito, Spring, REST API, and Docker. First, Maven was used for creating a JAR file to package the project. Second, JUnit and Mockito were used for integration and unit testing of the project. Third, Spring was used to manage dependency using the IoC container. Fourth, REST API was used to send HTTP requests to Twitter to access and use Twitter data. Lastly, Docker was used for dockerizing the project, and docker image was uploaded to DockerHub for deployment."
       - "JDBC App: Implemented Java Database Connectivity application which connects to PostgreSQL database and performs CRUD (Create, Read, Update, Delete) operations to the database. The application used various technologies which are Java, JDBC, Maven, and PostgreSQL. First, JDBC was used to allow Java programs to access PostGreSQL. Second, Maven was used to manage projects and help downloading dependencies to keep it up-to-date."
       - "Grep App: Implemented Java Grep Application that mimics the Linux grep command which allows users to search matching strings from files. The application was deployed using Docker container and implemented using various technologies. The technologies used in this project are Maven, Stream APIs, Java Regex and Lambda. First, Maven was used to manage projects and help downloading dependencies to keep it up-to-date. Second, Stream API allowed me to process collections of objects so objects were pipelined to produce desired result. Third, Lambda expression enabled me to use functional programming structure in Java. Lastly, Java Regex was used to find matching string from the text file."
 #  - name: "Springboot App"
@@ -64,7 +64,7 @@ jarvis_projects:
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
+  #project name
   - name: "Smart Service for Car Rental"
     #URL is optional
     git_url: ""
@@ -90,20 +90,20 @@ professional_experience:
     description: Worked on projects with a team of software developers and employed an Agile approach for the projects. Worked on technologies like GitHub, Docker, and PostgreSQL. The agile environment helped developers have daily scrum meetings and the sprint for Jarvis which uses a two-week sprint. Various projects using different languages and concepts were developed and one of the developers became a team lead for the sprint and was responsible for daily scrum meetings, listening, and monitoring whether to team member is heading in the right direction or had any obstacles stopping them to accomplish the work.
 
 #List of edcuation
-education: 
+education:
   - school_name: "Ryerson University"
     duration: "September 2017- December 2021"
     degree: "Bachelor of Sciences"
     department: "Computer Science"
     # optional
-    awards_achievements: 
+    awards_achievements:
       - "Entrance Scholarship"
       - "Dean's List (2019-2020, 2020-2021)"
 
 
 #Optional section
 others:
-    #category
+  #category
   - title: "Activities/Hobbies"
     bullets:
       - "Soccer player"
