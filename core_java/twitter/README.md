@@ -1,6 +1,4 @@
 # Introduction
-(50-100 words)
-What does this app do? What technologies you have used? (e.g. Twitter REST API, HTTP client, mvn, JSON, Java libs, docker etc..)
 
 This Java application does CR~~U~~D
 operation of tweet object (Update operation is not 
@@ -81,7 +79,7 @@ m3996m/twitter "delete" [id1,id2,...]
 ![UML Diagram](assets/UMLDiagram.png)
 
 ### App/main
-<hr>
+
 
 #### TwitterCLIApp
 - This class declares and instantiates all the components
@@ -93,7 +91,7 @@ controller methods and print tweets.
 <br>
 
 ### Controller
-<hr>
+
 
 #### TwitterController
 - In this class, it checks whether the correct amount of 
@@ -104,7 +102,7 @@ This class does not handle business logic.
 <br>
 
 ### Service
-<hr>
+
 
 #### TwitterService
 - This class handles business logic. For example, this class
@@ -115,7 +113,7 @@ and whether the ID is in a valid format.
 <br>
 
 ### DAO
-<hr>
+
 
 #### TwitterDao
 - This class handles the HTTP requests and responses 
