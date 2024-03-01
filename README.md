@@ -1,14 +1,14 @@
 # Joonho Myung . Jarvis Consulting
 
-I am a recent graduate from Toronto Metropolitan University (formerly Ryerson University), with a Bachelor of Science (Honours) in Computer Science. During my education, I learned software engineering, and the fundamentals of data structures, and became comfortable with various coding languages most notably Java, SQL, C/C++, and Bash. I'm currently working as Software Developer from Jarvis Consulting Group, and I'm working on improving my skill sets to become more efficient with algorithms and to do more advanced projects. I am using an agile approach to manage my projects and these projects help me to improve my capabilities with industry-standard technologies like Docker, PostgreSQL, and Maven. I decided to apply for a developer position because there is a big sense of achievement when you solve a problem. I love being a developer because it's all about problem-solving. It brings the feeling of achievement every day and this is one of my motivations to work hard.
+I am a recent graduate from Toronto Metropolitan University (formerly Ryerson University), with a Bachelor of Science (Honours) in Computer Science. During my education, I learned software engineering, and the fundamentals of data structures, and became comfortable with various coding languages most notably Java, SQL, C/C++, and Bash. I'm currently working as Software Developer from Teranet Inc., working on SEDAR+. Working on a systme like SEDAR+ improved my ability to detect where it has defect and optimize the system for better performance. Before Teranet Inc. I worked in Jarvis. I used an agile approach to manage my projects and these projects help me to improve my capabilities with industry-standard technologies like Docker, PostgreSQL, and Maven. I decided to apply for a developer position because there is a big sense of achievement when you solve a problem. I love being a developer because it's all about problem-solving. It brings the feeling of achievement every day and this is one of my motivations to work hard.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, Linux/Bash, RDBMS/SQL, Git, Groovy, XML
 
-**Competent:** Docker, Ruby, Angular, JavaScript, JDBC
+**Competent:** Docker, Agile/Scrum, Angular, JavaScript, JDBC
 
-**Familiar:** HTML/CSS, C, C++, PHP, REST API
+**Familiar:** HTML/CSS, C, C++, Ruby, REST API
 
 ## Jarvis Projects
 
@@ -33,6 +33,8 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyun
 ## Professional Experiences
 
 **Software Developer, Jarvis (2022-present)**: Worked on projects with a team of software developers and employed an Agile approach for the projects. Worked on technologies like GitHub, Docker, and PostgreSQL. The agile environment helped developers have daily scrum meetings and the sprint for Jarvis which uses a two-week sprint. Various projects using different languages and concepts were developed and one of the developers became a team lead for the sprint and was responsible for daily scrum meetings, listening, and monitoring whether to team member is heading in the right direction or had any obstacles stopping them to accomplish the work.
+
+**Teranet Inc. (2023-present)**: Worked on SEDAR+ which is secured web-based system that allows all the participants of market to file, manage and search about capital markets in Canada. Mainly worked on defects raised on client's side to implement and provide correct and quick solution. Worked on performance defects to improve time which takes to run specific services provided by SEDAR+. Also, worked on display defects to make sure everything is displayed correctly in webpage. Used Java/Groovy/XML to provide solution which matches the business requirements provided by business analysts. 
 
 
 ## Education
