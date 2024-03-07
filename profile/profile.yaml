@@ -5,7 +5,7 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_JoonhoMyun
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a graduate from Toronto Metropolitan University (formerly Ryerson University), with a Bachelor of Science (Honours) in Computer Science. During my education, I learned software engineering, and the fundamentals of data structures, and became comfortable with various coding languages most notably Java, SQL, C/C++, and Bash. I'm currently working as Software Developer from Teranet Inc., working on a project SEDAR+. Working on a system like SEDAR+ improved my ability to detect where it has defect and ability to optimize the system for better performance. Before Teranet, I've been working in Jarvis. We were using an agile approach to manage my projects and these projects help me to improve my capabilities with industry-standard technologies like Docker, PostgreSQL, and Maven. I decided to apply for a developer position because there is a big sense of achievement when you solve a problem. I love being a developer because it's all about problem-solving. It brings the feeling of achievement every day and this is one of my motivations to work hard.
+summary: I'm currently working as Software Developer from Teranet Inc., working on a project SEDAR+. Working on a project like SEDAR+ improved my ability to detect system defects and ability to optimize the system for better performance. Before Teranet, I've been working in Jarvis. We were using an agile approach to manage my projects and these projects help me to improve my capabilities with industry-standard technologies like Docker, PostgreSQL, and Maven. I decided to apply for a developer position because there is a big sense of achievement when you solve a problem. I graduated Toronto Metropolitan University (formerly Ryerson University), with a Bachelor of Science (Honours) in Computer Science. During my education, I learned software engineering, and the fundamentals of data structures, and became comfortable with various coding languages most notably Java, SQL, C/C++, and Bash. I love being a developer because it's all about problem-solving. It brings the feeling of achievement every day and this is one of my motivations to work hard.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -72,12 +72,6 @@ highlighted_projects:
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Created websites for ride and delivery services. Worked in a group and used front-end and back-end languages like HTML, CSS, PHP, SQL, Angular, and Javascript. On this website, users can sign up and purchase a ride with the specific vehicle they want. Also, the user can order delivery for the flower and food items they want. The group projects were contributed by each group member using GitHub.
 
-    #project name
-  - name: "Movie Recommender System"
-    #URL is optional
-    git_url: ""
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Created a Java program that recommends a movie to the user by analyzing other users' databases. Looks for the user who has a similar tendency and recommends their high-rated movie which the user hasn't watched yet. For the front end, I used Java Swing for GUI to let users interact with the database.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
